@@ -31,6 +31,12 @@
 
 .amount {
     display: inline-block;
-    width: 130px;
+    width: 150px;
     text-align: center;
+}
+
+.upgrades {
+    display: inline-block;
+    height: 50px;
+    width: 150px;
 }
