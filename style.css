@@ -1,0 +1,36 @@
+#wrapper {
+    margin-top: 10px;
+}
+
+#count {
+    position: absolute;
+    display: block;
+    margin: 10px;
+}
+
+#cookie {
+    display: block;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#cookieimg {
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+}
+
+#upgrades, #cook {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.amount {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+}
