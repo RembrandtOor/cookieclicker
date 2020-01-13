@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#whole {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper {
+    margin-top: 10px;
+}
+
+#count {
+    position: absolute;
+    display: block;
+    margin: 10px;
+}
+
+#cookie {
+    display: block;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#cookieimg {
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+}
+
+#upgrades, #cook {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.amount {
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.4;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+.upgrades {
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+    margin: 0px;
+    padding: 0px;
+}
+
